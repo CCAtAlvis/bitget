@@ -359,7 +359,7 @@ public class BitgetWsHandle implements BitgetWsClient {
     }
 
 
-    static class BitgetClientBuilder {
+    public static class BitgetClientBuilder {
         private String pushUrl;
         private boolean isLogin;
         private String apiKey;
@@ -410,7 +410,7 @@ public class BitgetWsHandle implements BitgetWsClient {
     }
 
     @Data
-    static class BookInfo {
+    public static class BookInfo {
         private List<String[]> asks;
         private List<String[]> bids;
         private String checksum;
